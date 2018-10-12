@@ -1,0 +1,21 @@
+{
+    "name": "vhxsd/kongserver",
+    "description": "kong 网关服务端验证",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "penghai",
+            "email": "wph45@163.com"
+        }
+    ],
+    "minimum-stability":"stable",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "kongServer\\": "src/"
+        }
+    }
+}
